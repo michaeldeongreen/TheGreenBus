@@ -15,7 +15,7 @@ namespace TheGreenBus.Sender
             string queueName = "queuedemo";
 
             var client = QueueClient.CreateFromConnectionString(connectionString, queueName);
-            var message = new BrokeredMessage("I'm on The Green Bus!");
+            var message = new BrokeredMessage("{'id':'1','value':'On the Bus!'}") { ContentType = "application/json" };
             client.Send(message);
 
             Console.WriteLine("Message was successfully sent!");

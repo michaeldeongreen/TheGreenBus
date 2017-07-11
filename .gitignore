@@ -7,3 +7,8 @@
 
 /src/TheGreenBus.Receiver/bin
 /src/TheGreenBus.Receiver/obj
+
+
+/src/TheGreenBus.Messages/bin
+/src/TheGreenBus.Messages/obj
+
