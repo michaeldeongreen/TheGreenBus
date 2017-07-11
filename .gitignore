@@ -1,0 +1,6 @@
+*.user
+
+/src/packages
+/src/.vs
+/src/TheGreenBus.Sender/bin
+/src/TheGreenBus.Sender/obj
