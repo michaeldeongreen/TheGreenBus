@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TheGreenBus.Sender", "TheGr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheGreenBus.Sender", "TheGreenBus.Sender\TheGreenBus.Sender.csproj", "{F985EBEB-F97A-47C2-80E5-ABAA09F3B249}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TheGreenBus.Receiver", "TheGreenBus.Receiver", "{6B4C7420-A26C-4540-9F59-9D78A727F7D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheGreenBus.Receiver", "TheGreenBus.Receiver\TheGreenBus.Receiver.csproj", "{98CD9ECF-8DC8-46AB-BD29-00459412BC8F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,11 +21,16 @@ Global
 		{F985EBEB-F97A-47C2-80E5-ABAA09F3B249}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F985EBEB-F97A-47C2-80E5-ABAA09F3B249}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F985EBEB-F97A-47C2-80E5-ABAA09F3B249}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98CD9ECF-8DC8-46AB-BD29-00459412BC8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98CD9ECF-8DC8-46AB-BD29-00459412BC8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98CD9ECF-8DC8-46AB-BD29-00459412BC8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98CD9ECF-8DC8-46AB-BD29-00459412BC8F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{F985EBEB-F97A-47C2-80E5-ABAA09F3B249} = {7D1E606D-06A0-4233-BE7E-F3E1823B8E10}
+		{98CD9ECF-8DC8-46AB-BD29-00459412BC8F} = {6B4C7420-A26C-4540-9F59-9D78A727F7D9}
 	EndGlobalSection
 EndGlobal

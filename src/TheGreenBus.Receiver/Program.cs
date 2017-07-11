@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TheGreenBus.Sender
+namespace TheGreenBus.Receiver
 {
     class Program
     {
@@ -15,10 +15,12 @@ namespace TheGreenBus.Sender
             string queueName = "queuedemo";
 
             var client = QueueClient.CreateFromConnectionString(connectionString, queueName);
-            var message = new BrokeredMessage("I'm on The Green Bus!");
-            client.Send(message);
 
-            Console.WriteLine("Message was successfully sent!");
+            client.OnMessage(message =>
+            {
+                Console.WriteLine(String.Format("Message body: {0}", message.GetBody<String>()));
+                Console.WriteLine(String.Format("Message id: {0}", message.MessageId));
+            });
 
             Console.WriteLine("Press ENTER to exit program");
             Console.ReadLine();

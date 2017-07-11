@@ -4,3 +4,6 @@
 /src/.vs
 /src/TheGreenBus.Sender/bin
 /src/TheGreenBus.Sender/obj
+
+/src/TheGreenBus.Receiver/bin
+/src/TheGreenBus.Receiver/obj
